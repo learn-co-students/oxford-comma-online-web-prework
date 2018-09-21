@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  
   if array.length <= 1
     joined = array.join
   elsif array.length == 2
@@ -9,4 +10,5 @@ def oxford_comma(array)
     array.push(last)
     joined = array.join(", ")
   end
+  
 end
