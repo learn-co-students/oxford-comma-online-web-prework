@@ -17,3 +17,13 @@ def oxford_comma(array)
    text
  end
 end
+
+# Another solution to consider
+#   if array.length == 1
+# end 	    array.join
+#   elsif array.length == 2
+#     array.join(" and ")
+#   elsif array.length >= 3
+#     array[0..-2].join(", ") + ", and " + array[-1]
+#   end
+# end
