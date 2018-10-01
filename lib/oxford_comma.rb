@@ -7,7 +7,7 @@ def oxford_comma(array)
   array.join( " and " )
   
   elsif array.length == 3 
-  array[-1].prepend "and "
+  array[-1].prepend "and "  #that means go to the end (prepend) and go back 1 space
   array.join( ", " )
   
   else 
