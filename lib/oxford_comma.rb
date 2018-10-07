@@ -4,7 +4,7 @@ if array.length == 1
 elsif array.length == 2
   array[-2] << " and "
   array.join
-  elsif array.length == 3
+  elsif array.length  > 2
     array[-1].prepend "and "
 	  array.join(", ")
 	elsif array.length > 3
