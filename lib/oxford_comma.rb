@@ -1,7 +1,5 @@
 def oxford_comma(array)
-if player.kind_of?(Array)
-    @team_players.concat player  
-  else
+if array.length > counter
     @team_players << player
   end
 end
