@@ -4,6 +4,6 @@ def oxford_comma(array)
   elsif array.size == 2
   return "#{array[0]} and #{array[1]}"
 end
-
-return "#{array[0...array.length-1].join(", ")}, and #{array[-1]}"
+first = array[0...array.length-1].join(", ")
+return "#{first}, and #{array[-1]}"
 end
