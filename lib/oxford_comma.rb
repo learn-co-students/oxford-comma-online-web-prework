@@ -14,7 +14,7 @@ def oxford_comma(array)
    array.map {|x| new_array << x + ","}
    new_array2 = new_array.insert(-2, "and")
    new_array3 = new_array2.join(" ")
-   final_array = new_array3.slice(0..-1)
+   final_array = new_array3.slice(0..-2)
     
   end
 end
