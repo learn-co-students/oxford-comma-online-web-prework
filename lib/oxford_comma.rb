@@ -6,9 +6,8 @@ elsif array.count == 2
     return array.join(" ")
 return array
 else
-  string = array.join(",")
-  arr = string.split(",")
-  arr[-1] = "and " + arr[-1]
-  string2 = arr.join(", ")
+  
+  array[-1] = "and " + array[-1]
+  string2 = array.join(", ")
   end
 end
