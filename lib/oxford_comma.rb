@@ -1,10 +1,12 @@
 def oxford_comma(array)
-if array.size == 1
+if  array.count == 1
   array.join
-elsif array.size == 2 
-array.join("and")
-else final = array.last
-    array.pop
-    string = array.join(", ")
-    string << ", and #{final}"
-end
+elsif array.count == 2
+  array.join(" and ")
+elsif array.count > 2
+  array[-1].insert(0,"and ")
+  ##binding.pry
+  str =array.join (", ")
+
+end 
+end 
