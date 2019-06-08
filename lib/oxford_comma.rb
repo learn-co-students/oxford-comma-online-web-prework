@@ -1,3 +1,7 @@
 def oxford_comma(array)
-
-end
+  array = "kiwi"
+  array << and "durian"
+ end
+ 
+ 
+ im stuck on this one too.  :(
